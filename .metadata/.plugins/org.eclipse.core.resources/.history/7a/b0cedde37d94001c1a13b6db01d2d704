@@ -1,0 +1,5 @@
+package com.te.springjwt.bean;
+
+public class MyUserDetails {
+
+}

@@ -1,0 +1,3 @@
+INDEX VERSION 1.131
+D:\Spring boot\springstarter\lol\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\479532385.index
+\mvcpractice\target\generated-sources\annotations

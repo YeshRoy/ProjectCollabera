@@ -1,0 +1,2 @@
+INDEX VERSION 1.4+D:\Spring boot\springstarter\lol\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1569958212.index

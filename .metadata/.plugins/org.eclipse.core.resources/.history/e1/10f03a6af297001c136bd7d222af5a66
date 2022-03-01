@@ -1,0 +1,9 @@
+package com.te.carwale.dao;
+
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+import org.springframework.data.repository.CrudRepository;
+
+@EnableJpaRepositories
+public interface AdminDao extends CrudRepository<T, ID>{
+
+}

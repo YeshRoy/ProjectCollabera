@@ -1,0 +1,5 @@
+package com.te.springjwt.congif;
+
+public class SecurityConfig {
+
+}

@@ -1,0 +1,22 @@
+package com.te.carwale.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.te.carwale.bean.CarDetails;
+import com.te.carwale.service.CarService;
+
+@RestController
+public class CarController {
+	
+	@Autowired
+	private CarService service;
+	
+	@GetMapping("/get/{id}")
+	private CarDetails getData(@PathVariable int id) {
+		return service.findByCarId(id);
+	}
+
+}
