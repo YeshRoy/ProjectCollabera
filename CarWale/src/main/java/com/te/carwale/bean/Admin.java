@@ -17,8 +17,8 @@ public class Admin {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name="admin_id")
 	private int id;
-	@Column(name="admin_email")
-	private String email;
+	@Column(name="username")
+	private String userName;
 	@Column(name="admin_name")
 	private String name;
 	@Column(name="admin_password")

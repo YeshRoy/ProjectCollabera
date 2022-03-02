@@ -1,0 +1,5 @@
+package com.te.carwale.bean;
+
+public class MyAdminDetails {
+
+}

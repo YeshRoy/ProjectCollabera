@@ -1,0 +1,33 @@
+package com.te.carwale.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.te.carwale.bean.Admin;
+import com.te.carwale.dao.AdminDao;
+
+@Service
+public class AdminServiceImp implements AdminService{
+	@Autowired
+	private AdminDao dao;
+
+	@Override
+	public Admin addData(Admin admin) {
+		return dao.save(admin);
+	}
+
+	@Override
+	public Admin getData(String email) {
+		
+		return dao.findByEmail(email);
+	}
+
+	@Override
+	public Admin updateData(Admin admin) {
+		return dao.save(admin);
+	}
+
+	
+	
+
+}

@@ -6,7 +6,7 @@ public interface AdminService {
 	
 	public Admin addData(Admin admin);
 	
-	public Admin getData(String email);
+	public Admin getData(String username);
 
 	public Admin updateData(Admin admin);
 	

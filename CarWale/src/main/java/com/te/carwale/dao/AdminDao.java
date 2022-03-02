@@ -8,6 +8,6 @@ import com.te.carwale.bean.Admin;
 @EnableJpaRepositories
 public interface AdminDao extends CrudRepository<Admin, String>{
 	
-	public Admin findByEmail(String email);
+	public Admin findByUserName(String username);
 
 }
